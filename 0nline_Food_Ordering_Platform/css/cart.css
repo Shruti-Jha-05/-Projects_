@@ -1,0 +1,118 @@
+.box{
+    width: 80vw;
+    margin: 9rem auto;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+.box .mainBox{
+    width: 98%;
+    margin: auto;
+    height: 60vh;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.mainBox .displayItemsBox{
+    width: 73%;
+    overflow-y: scroll;
+    padding: 1rem;
+}
+
+.displayItemsBox{
+    box-shadow: 1px 1px 5px 5px rgb(226, 226, 226);
+    border-radius: 1rem;
+}
+
+.displayItemsBox .item{
+    margin: 1rem 0;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 0.75rem;
+    display: flex;
+    align-items: center;
+}
+
+.displayItemsBox .item .content {
+    margin-right: 2rem;
+}
+
+.displayItemsBox .item img{
+    width: 20%;
+    border-radius: 1rem;
+    padding: 1rem;
+}
+
+.displayItemsBox .item h1{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+
+.displayItemsBox .item p{
+    font-size: 1.4rem;
+    margin: 0.5rem 0;
+}
+
+.displayItemsBox .item h6{
+    font-size: 1.6rem;
+}
+
+.mainBox .paymentBox{
+    width: 23%;
+    height: fit-content;
+    box-shadow: 1px 1px 5px 5px rgb(226, 226, 226);
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    margin: 0 0.5rem;
+    align-items: center;
+    background-color: rgb(253, 253, 253);
+    padding: 0.5rem;
+}
+
+.paymentBox h6{
+    font-size: 2rem;
+}
+
+.paymentBox .mainPayment{
+    display: flex;
+    align-items: center;
+    margin: 0.5rem 0;
+    width: 75%;
+    justify-content: space-between;
+}
+
+.mainPayment p{
+    font-size: 1.4rem;
+    margin: 0.65rem 0;
+}
+
+.mainBox select{
+    font-size: 1.3rem;
+    margin: 0.65rem 0;
+    background-color: transparent;
+    outline: none;
+}
+
+.mainBox select option{
+    font-size: 1.5rem;
+}
+
+ button{
+    background-color: #29aadd;
+    border: 1px solid white;
+    color: white;
+    padding: 0.5rem 1rem;
+    font-size: 1.4rem;
+    border-radius: 0.75rem;
+    margin: 0.75rem 0;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+ button:hover{
+    background-color: white;
+    color: #29aadd;
+    border: 1px solid #29aadd;
+}
